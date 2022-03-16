@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\查找">
+      <UniqueIdentifier>{d6eaa7c0-bf89-4e76-85ec-e874a4bd040a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\排序">
+      <UniqueIdentifier>{0a74ad9d-64c1-45e9-b386-766dcf1c4fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\递归">
+      <UniqueIdentifier>{3658fc40-ca38-470c-a3c8-c622375b48b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\一些杂项尝试">
+      <UniqueIdentifier>{d948763a-eb1f-4430-a552-479360be3d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\cppLearn">
+      <UniqueIdentifier>{c3f6392d-e740-45e8-9b51-a6265fefc4f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\cppLearn\类和对象">
+      <UniqueIdentifier>{f5004cba-b1ce-4e14-8f81-ec3adbf73d26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\cppLearn\继承-类的派生">
+      <UniqueIdentifier>{f338a894-953b-49ac-aed5-495d86357999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\cppLearn\更进一步">
+      <UniqueIdentifier>{384274f4-8f4f-4013-a5b6-a2daa34ab564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图算法">
+      <UniqueIdentifier>{fa6b37cc-616b-472a-888f-a7d009d72460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\cppLearn\异常处理">
+      <UniqueIdentifier>{1a1b5c6b-9955-41e3-bfa7-574ce0baa151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\枚举">
+      <UniqueIdentifier>{9e5b36c8-e1e7-442d-8067-ff6ad679d160}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="线性查找.c">
+      <Filter>源文件\查找</Filter>
+    </ClCompile>
+    <ClCompile Include="二分查找.c">
+      <Filter>源文件\查找</Filter>
+    </ClCompile>
+    <ClCompile Include="插入排序.c">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="选择排序.c">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="冒泡排序.c">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="冒泡排序改进01.c">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="快速排序.c">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="堆排序.c">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="阶乘与斐波那契数列.c">
+      <Filter>源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="阿克曼函数.c">
+      <Filter>源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="欧几里得算法%28辗转相除法%29.c">
+      <Filter>源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="金山问题.c">
+      <Filter>源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="二维数组最为函数参数.c">
+      <Filter>源文件\一些杂项尝试</Filter>
+    </ClCompile>
+    <ClCompile Include="格雷码.c">
+      <Filter>源文件\一些杂项尝试</Filter>
+    </ClCompile>
+    <ClCompile Include="枚举子集.c">
+      <Filter>源文件\一些杂项尝试</Filter>
+    </ClCompile>
+    <ClCompile Include="生成组合对象2.c">
+      <Filter>源文件\一些杂项尝试</Filter>
+    </ClCompile>
+    <ClCompile Include="生成组合对象3.c">
+      <Filter>源文件\一些杂项尝试</Filter>
+    </ClCompile>
+    <ClCompile Include="构造重载析构嵌套.cpp">
+      <Filter>源文件\cppLearn\类和对象</Filter>
+    </ClCompile>
+    <ClCompile Include="友元.cpp">
+      <Filter>源文件\cppLearn\类和对象</Filter>
+    </ClCompile>
+    <ClCompile Include="运算符重载.cpp">
+      <Filter>源文件\cppLearn\类和对象</Filter>
+    </ClCompile>
+    <ClCompile Include="对象的复制%28拷贝%291.cpp">
+      <Filter>源文件\cppLearn\类和对象</Filter>
+    </ClCompile>
+    <ClCompile Include="对象的复制(拷贝)2.cpp">
+      <Filter>源文件\cppLearn\类和对象</Filter>
+    </ClCompile>
+    <ClCompile Include="静态成员.cpp">
+      <Filter>源文件\cppLearn\类和对象</Filter>
+    </ClCompile>
+    <ClCompile Include="定义和使用派生类.cpp">
+      <Filter>源文件\cppLearn\继承-类的派生</Filter>
+    </ClCompile>
+    <ClCompile Include="派生类的构造与析构.cpp">
+      <Filter>源文件\cppLearn\继承-类的派生</Filter>
+    </ClCompile>
+    <ClCompile Include="访问控制.cpp">
+      <Filter>源文件\cppLearn\继承-类的派生</Filter>
+    </ClCompile>
+    <ClCompile Include="多态与动态联编.cpp">
+      <Filter>源文件\cppLearn\更进一步</Filter>
+    </ClCompile>
+    <ClCompile Include="g1.c">
+      <Filter>源文件\图算法</Filter>
+    </ClCompile>
+    <ClCompile Include="g2.c">
+      <Filter>源文件\图算法</Filter>
+    </ClCompile>
+    <ClCompile Include="g3.c">
+      <Filter>源文件\图算法</Filter>
+    </ClCompile>
+    <ClCompile Include="抽象类.cpp">
+      <Filter>源文件\cppLearn\更进一步</Filter>
+    </ClCompile>
+    <ClCompile Include="override与final.cpp">
+      <Filter>源文件\cppLearn\更进一步</Filter>
+    </ClCompile>
+    <ClCompile Include="多重继承.cpp">
+      <Filter>源文件\cppLearn\更进一步</Filter>
+    </ClCompile>
+    <ClCompile Include="异常处理.cpp">
+      <Filter>源文件\cppLearn\异常处理</Filter>
+    </ClCompile>
+    <ClCompile Include="完美立方.cpp">
+      <Filter>源文件\枚举</Filter>
+    </ClCompile>
+    <ClCompile Include="hello.cpp">
+      <Filter>源文件\cppLearn</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
